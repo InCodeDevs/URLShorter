@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "A simple URL Shorter",
   "main": "src/index.js",
+  "typings": "./types",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "typescript:createtypes": "tsc"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -19,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/InCodeDevs/URLShorter/issues"
   },
-  "homepage": "https://github.com/InCodeDevs/URLShorter#readme"
+  "homepage": "https://github.com/InCodeDevs/URLShorter#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "typescript": "^4.4.3"
+  }
 }
