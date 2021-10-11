@@ -1,6 +1,6 @@
 {
   "name": "@incodelang/urlshorter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple URL Shorter",
   "main": "src/index.js",
   "typings": "./types",
