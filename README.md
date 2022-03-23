@@ -1,6 +1,8 @@
 
 # @incodelang/urlshorter
 
+**Merged into [InCodeDevs/InCode](https://github.com/InCodeDevs/InCode)**
+
 A simple way to short urls
 
 
